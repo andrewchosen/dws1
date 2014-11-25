@@ -1,0 +1,4 @@
+GitHub Links:
+	
+	Repo: 		https://github.com/andrewchosen/dws1/tree/gh-pages/project1
+	Live:		http://andrewchosen.github.io/dws1/project1/
