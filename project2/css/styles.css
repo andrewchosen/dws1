@@ -82,6 +82,13 @@ figure a:hover {
 	border-color: #34AAA0;
 }
 
+figcaption {
+	font-style: oblique;
+	font-size: 12px;
+	text-align: center;
+	width: 300px;
+}
+
 /* Resource links */
 
 #resources {
