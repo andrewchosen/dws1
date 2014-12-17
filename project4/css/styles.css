@@ -1,0 +1,143 @@
+/* CSS Styles */
+
+
+/* Main styles */
+
+body {
+	background: #345679;
+	background-image: url("../images/bg.png");
+	background-repeat: repeat;
+	background-position: center;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+h1,h2,h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	color: #DD7644;
+	text-shadow: 1px 1px #345679;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1;
+	text-align: center;
+}
+
+a:link {
+	color: #109086;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #34AAA0;
+}
+
+a:hover {
+	color: #1D5D58;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FF9968;
+}
+
+/* Container */
+
+#container {
+	width: 90%;
+	background-color: rgba(255,255,255,0.85);
+	margin: auto;
+	border-radius: 3px;
+	box-shadow: 0px 0px 30px #1e1e1e;
+	overflow: auto;
+}
+
+/* --- MAIN --- */
+
+article {
+	width: 50%;
+	float: left;
+	margin: 0 5%;
+}
+
+article h2 {
+	padding-left: 50px;
+	background-image: url("../images/bullet.png");
+	background-repeat: no-repeat;
+	background-position: left 7px;
+}
+
+/* Top navigation */
+
+nav {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	width: 300px;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+/* --- SIDEBAR --- */
+
+aside {
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin: 0 5%;
+	border-radius: 2px;
+	background: #7b9bad; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7b9bad 0%, #a7cfdf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7b9bad), color-stop(100%,#a7cfdf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #7b9bad 0%,#a7cfdf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #7b9bad 0%,#a7cfdf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #7b9bad 0%,#a7cfdf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #7b9bad 0%,#a7cfdf 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b9bad', endColorstr='#a7cfdf',GradientType=0 ); /* IE6-9 */
+}
+
+/* Gallery */
+
+figure a {
+	display: block;
+	border: 5px solid #FFF;
+	margin: auto;
+	width: 200px;
+	height: 123px;
+}
+
+figure img {
+	width: 200px;
+}
+
+figure a:hover {
+	border-color: #34AAA0;
+}
+
+figcaption {
+	font-style: oblique;
+	font-size: .8em;
+	text-align: center;
+}
+
+/* Resource links */
+
+footer {
+	width: 85%;
+	margin: 5%;
+	padding: 2.5%;
+	border: 1px solid #C55;
+	clear: both;
+}
+
+footer a {
+	color: #C55;
+}
