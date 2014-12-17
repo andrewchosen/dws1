@@ -77,13 +77,105 @@ nav {
 	list-style-type: none;
 	text-align: center;
 	padding: 0;
+	margin: 30px 0;
 }
 
 nav li {
 	display: inline-block;
-	width: 300px;
+	width: 30%;
 	padding: 10px;
 	margin-right: 10px;
+}
+
+/* --- TABLES --- */
+
+table {
+	font-size: 75%;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #fff
+}
+
+table th {
+	width: 15%;
+	text-transform: uppercase;
+	padding: 3%;
+	border-top: 1px solid #FFF;
+	text-align: center;
+}
+
+table td {
+	width: 85%;
+	border-top: 1px solid #FFF;
+	border-left: 1px dotted #FFF;
+	padding: 3%;
+}
+
+table td.first, table th.first {
+	border-top: 0;
+}
+
+table tr:hover {
+	background: #EEE;
+}
+
+/* --- FORMS --- */
+
+form {
+	width: 100%;
+	color: #777;
+}
+
+input, textarea, select {
+	padding: 8px;
+	border-radius: 2px;
+	border: 1px solid #CCC;
+	background-color: #eee;
+}
+
+input:hover, textarea:hover, select:hover {
+	background: #FCFCFC;
+}
+
+input:focus, textarea:focus, select:focus {
+	background: #FCFCFC;
+	border: 1px solid #DD7644;
+	outline: none;
+}
+
+form .row {
+	padding: 2%;
+	margin: 10px 0;
+	clear: both;
+	overflow: auto;
+}
+
+form .title {
+	width: 30%;
+	float: left;
+}
+
+form .field {
+	width: 60%;
+	float: right;
+}
+
+form button {
+	font-size: 1.3em;
+	color: #FFF;
+	padding: 10px 16px;
+	border: 1px solid #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	background-color: #DD7644;
+	width: 120px;
+	float: right;
+}
+
+form button:hover {
+	background-color: #109086;
+	cursor: pointer;
 }
 
 /* --- SIDEBAR --- */
@@ -108,17 +200,16 @@ aside {
 
 figure a {
 	display: block;
-	border: 5px solid #FFF;
 	margin: auto;
-	width: 200px;
-	height: 123px;
+	width: 100%;
 }
 
 figure img {
-	width: 200px;
+	width: 100%;
+	border: 5px solid #FFF;
 }
 
-figure a:hover {
+figure a img:hover {
 	border-color: #34AAA0;
 }
 

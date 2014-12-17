@@ -66,39 +66,84 @@
 			<p>The five alignment plans for the <abbr title="National Football Conference">NFC</abbr> in 1970 were as follows, with Plan 3 eventually selected:</p>
 			<ul>
 				<li><p><strong>Plan 1</strong></p>
-					<ul>
-						<li>Eastern - Atlanta, Minnesota, <em>New York Giants</em>, Philadelphia, Washington</li>
-						<li>Central - Chicago, Detroit, Green Bay, New Orleans</li>
-						<li>Western - Dallas, Los Angeles Rams, St. Louis Cardinals, San Francisco</li>
-					</ul>
+					<table>
+						<tr>
+							<th scope="row" class="first">Eastern</th>
+							<td class="first">Atlanta, Minnesota, <em>New York Giants</em>, Philadelphia, Washington</td>
+						</tr>
+						<tr>
+							<th scope="row">Central</th>
+							<td>Chicago, Detroit, Green Bay, New Orleans</td>
+						</tr>
+						<tr>
+							<th scope="row">Western</th>
+							<td>Dallas, Los Angeles Rams, St. Louis Cardinals, San Francisco</td>
+						</tr>
+					</table>
 				</li>
 				<li><p><strong>Plan 2</strong></p>
-					<ul>
-						<li>Eastern - Minnesota, <em>New York Giants</em>, Philadelphia, Washington</li>
-						<li>Central - Atlanta, Dallas, New Orleans, St. Louis Cardinals</li>
-						<li>Western - Chicago, Detroit, Green Bay, Los Angeles Rams, San Francisco</li>
-					</ul>
+					<table>
+						<tr>
+							<th scope="row" class="first">Eastern</th>
+							<td class="first">Minnesota, <em>New York Giants</em>, Philadelphia, Washington</td>
+						</tr>
+						<tr>
+							<th scope="row">Central</th>
+							<td>Atlanta, Dallas, New Orleans, St. Louis Cardinals</td>
+						</tr>
+						<tr>
+							<th scope="row">Western</th>
+							<td>Chicago, Detroit, Green Bay, Los Angeles Rams, San Francisco</td>
+						</tr>
+					</table>
 				</li>
 				<li><p><strong>Plan 3</strong></p>
-					<ul>
-						<li>Eastern - Dallas, <em>New York Giants</em>, Philadelphia, St. Louis Cardinals, Washington</li>
-						<li>Central - Chicago, Detroit, Green Bay, Minnesota</li>
-						<li>Western - Atlanta, Los Angeles Rams, New Orleans, San Francisco</li>
-					</ul>
+					<table>
+						<tr>
+							<th scope="row" class="first">Eastern</th>
+							<td class="first">Dallas, <em>New York Giants</em>, Philadelphia, St. Louis Cardinals, Washington</td>
+						</tr>
+						<tr>
+							<th scope="row">Central</th>
+							<td>Chicago, Detroit, Green Bay, Minnesota</td>
+						</tr>
+						<tr>
+							<th scope="row">Western</th>
+							<td>Atlanta, Los Angeles Rams, New Orleans, San Francisco</td>
+						</tr>
+					</table>
 				</li>
 				<li><p><strong>Plan 4</strong></p>
-					<ul>
-						<li>Eastern - Minnesota, <em>New York Giants</em>, Philadelphia, St. Louis Cardinals, Washington</li>
-						<li>Central - Atlanta, Chicago, Detroit, Green Bay</li>
-						<li>Western - Dallas, New Orleans, Los Angeles Rams, San Francisco</li>
-					</ul>
+					<table>
+						<tr>
+							<th scope="row" class="first">Eastern</th>
+							<td class="first">Minnesota, <em>New York Giants</em>, Philadelphia, St. Louis Cardinals, Washington</td>
+						</tr>
+						<tr>
+							<th scope="row">Central</th>
+							<td>Atlanta, Chicago, Detroit, Green Bay</td>
+						</tr>
+						<tr>
+							<th scope="row">Western</th>
+							<td>Dallas, New Orleans, Los Angeles Rams, San Francisco</td>
+						</tr>
+					</table>
 				</li>
 				<li><p><strong>Plan 5</strong></p>
-					<ul>
-						<li>Eastern - Detroit, Minnesota, <em>New York Giants</em>, Philadelphia, Washington</li>
-						<li>Central - Chicago, Dallas, Green Bay, St. Louis Cardinals</li>
-						<li>Western - Atlanta, Los Angeles Rams, New Orleans, San Francisco</li>
-					</ul>
+					<table>
+						<tr>
+							<th scope="row" class="first">Eastern</th>
+							<td class="first">Detroit, Minnesota, <em>New York Giants</em>, Philadelphia, Washington</td>
+						</tr>
+						<tr>
+							<th scope="row">Central</th>
+							<td>Chicago, Dallas, Green Bay, St. Louis Cardinals</td>
+						</tr>
+						<tr>
+							<th scope="row">Western</th>
+							<td>Atlanta, Los Angeles Rams, New Orleans, San Francisco</td>
+						</tr>
+					</table>
 				</li>
 			</ul>
 			<p>Three expansion teams have joined the <abbr title="National Football Conference">NFC</abbr> since the merger, thus making the current total 16. When the <em>Seattle Seahawks</em> and the <em>Tampa Bay Buccaneers</em> joined the league in 1976, they were temporarily placed in the <abbr title="National Football Conference">NFC</abbr> and <abbr title="American Football Conference">AFC</abbr>, respectively, for one season before they switched conferences. The Seahawks returned to the <abbr title="National Football Conference">NFC</abbr> as a result of the 2002 realignment. The <em>Carolina Panthers</em> joined the <abbr title="National Football Conference">NFC</abbr> in 1995.</p>
@@ -123,6 +168,49 @@
 				<li><em>San Francisco 49ers</em></li>
 				<li><em>Seattle Seahawks</em></li>
 			</ol>
+
+		<!-- Contact Form -->
+		<section id="contact-form">
+			<h3>Contact Us</h3>
+			<form>
+				<div class="row">
+					<label class="title" for="name">Full Name:</label>
+					<input type="text" id="name" class="field" name="name" placeholder="ie. John Doe" required="required">
+				</div>
+				<div class="row">
+					<label class="title" for="email">Email Address:</label>
+					<input type="email" id="email" class="field" name="email" placeholder="ie. john@domain.com" required="required">
+				</div>
+				<div class="row">
+					<label class="title" for="subject">Subject:</label>
+					<select name="subject" id="subject" class="field">
+					    <option value="general" selected>General</option>
+					    <option value="technical">Technical Support</option>
+					    <option value="sales">Sales</option>
+					</select>
+				</div>
+				<div class="row">
+					<label class="title" for="comments">Comments:</label>
+					<textarea name="comments" id="comments" class="field" rows="5" cols="20" required="required">Your comments</textarea>
+				</div>
+				<div class="row">
+					<span class="title">Sign up for our newsletter?</span>
+					<span class="field">
+					<div>
+						<input type="radio" name="newsletter" id="yes" value="yes" checked>
+						<label for="yes">Yes</label>
+					    <input type="radio" name="newsletter" id="no" value="no">
+					    <label for="no">No</label>
+					</div>
+					</span>
+				</div>
+				<div class="row">
+			    	<button id="submit" type="submit" value="Send">Send</button>
+				</div>
+			</form>
+		</section>
+		<!-- END Contact Form -->
+
 		</article> <!-- END Main Content -->
 
 		<!-- Sidebar -->
@@ -148,16 +236,18 @@
 				<a href="images/mascots.jpg"><img src="images/mascots-thumb.jpg" alt="NFL mascots"></a>
 				<figcaption>Figure 4: NFL mascots</figcaption>
 			</figure>
+			<!-- END Gallery -->
 		</aside>
+		<!-- END Sidebar -->
 		
-		<!-- Resource links -->
+		<!-- Footer -->
 		<footer>
 			<strong>Resources:</strong> 
 				<a href="http://en.wikipedia.org/wiki/National_Football_League">http://en.wikipedia.org/wiki/National_Football_League</a>; 
 				<a href="http://en.wikipedia.org/wiki/National_Football_Conference">http://en.wikipedia.org/wiki/National_Football_Conference</a>; 
 				<a href="http://en.wikipedia.org/wiki/American_Football_Conference">http://en.wikipedia.org/wiki/American_Football_Conference</a>
 		</footer>
-		<!-- END Sidebar -->
+		<!-- END Footer -->
 	</div>
 	<!-- END Container -->
 </body>
